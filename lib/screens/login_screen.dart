@@ -59,14 +59,21 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
+                const Text(
+                  'Login',
+                  style: TextStyle(
+                    fontSize: 32,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
                 const Padding(
                   padding: EdgeInsets.all(20.0),
-                  child: Text(
-                    'Connection',
-                    style: TextStyle(
-                      fontSize: 24,
-                      decoration: TextDecoration.underline,
-                    ),
+                  child: Column(
+                    children: <Widget>[
+                      Text('Accounts'),
+                      Text('a@a.com | aaaaaa'),
+                      Text('b@b.com | bbbbbb'),
+                    ],
                   ),
                 ),
                 TextFormField(

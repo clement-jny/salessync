@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:salessync/screens/add_sale_screen.dart';
 import 'package:salessync/screens/profile_screen.dart';
 import 'package:salessync/screens/sales_screen.dart';
 

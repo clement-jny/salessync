@@ -86,6 +86,10 @@ class _AddSaleScreenState extends State<AddSaleScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Add Sale'),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => Navigator.pushReplacementNamed(context, '/home'),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
